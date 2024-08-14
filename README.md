@@ -1,5 +1,7 @@
 # invoice-generator
-Invoice Generator for payroll based off of data on an excel sheet.
+This project provides a Python-based invoice generator that creates invoices using data from an Excel spreadsheet and a Word template. It utilizes the openpyxl library to read Excel files and docxtpl to fill out the Word template. I created this for payroll based off of data on an excel sheet. Made for a payroll job I had a while back. Removed all confidential information as my actual invoice generator was for a specific use case.
+Download the folder and run the script to try it out! (Run Script, Choose excel data (Invoice_Data.xlsx), and watch the magic happen! 
+!Important!: make sure the word document is in the same folder as your python script!
 
 This project provides a Python-based invoice generator that creates invoices using data from an Excel spreadsheet and a Word template. It utilizes the openpyxl library to read Excel files and docxtpl to fill out the Word template.
 
