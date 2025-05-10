@@ -2,18 +2,6 @@
 Use Now: Download the folder and run the script to try it out! (Run Script, Choose excel data (Invoice_Data.xlsx), and watch the magic happen! 
 !Important!: make sure the word document is in the same folder as your python script!
 
-Intro: This project provides a Python-based invoice generator that creates invoices using data from an Excel spreadsheet and a Word template. It utilizes the openpyxl library to read Excel files and docxtpl to fill out the Word template. I created this for payroll based off of data on an excel sheet. Made for a payroll job I had a while back. Removed all confidential information as my actual invoice generator was for a specific use case. This project provides a Python-based invoice generator that creates invoices using data from an Excel spreadsheet and a Word template. It utilizes the openpyxl library to read Excel files and docxtpl to fill out the Word template.
-
-Project Components:
-Excel Data: The Excel file should contain the invoice data. The top row is considered a header and is skipped. The data in subsequent rows will be used to generate invoices.
-Template Invoice Document: A Word document template with placeholders that will be replaced by data from the Excel file.
-Python Code: The script that reads the Excel file, processes the data, and generates the invoices using the Word template.
-
-Features:
-Excel Data Handling: Skips the header row and processes all subsequent rows until it finds no more data.
-Dynamic Naming: Generated invoices are named after the invoice number.
-Customizable Data Handling: Easy to adjust data types and modify the template.
-
 Getting Started:
 Setup:
 Ensure you have Python installed.
@@ -31,6 +19,122 @@ Ensure that the Word template file (template_invoice.docx) is in the same direct
 Update template_invoice.docx with your desired format and placeholders.
 Run the Python script:
 The script will prompt you to select your Excel file. Once selected, it will generate invoices named after the invoice numbers found in the Excel file.
+
+
+Contact
+For questions please contact @johnny0182 at johnny.leyva182@gmail.com .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Additonal info: 
+
 
 Testing:
 For a quick test, you can place the .py, Word template, and Excel file in the same folder and run the script. The script will use these files directly to generate invoices.
@@ -72,16 +176,3 @@ Here’s an example of how the generated invoices will be named:
 
 Invoice_12345.docx (where 12345 is the invoice number from the Excel file).
 
-
-
-
-
-
-
-
-
-
-
-
-Contact
-For questions or contributions, please contact @johnny0182 at johnny.leyva182@gmail.com .
